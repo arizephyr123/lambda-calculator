@@ -22,3 +22,4 @@ export default function Numbers() {
       </div>
   );
 }
+// console.log(index);

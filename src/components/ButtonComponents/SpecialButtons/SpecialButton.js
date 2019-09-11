@@ -3,7 +3,7 @@ import React from "react";
 const SpecialButton = props => {
   //console.log(props);
   return (
-    <button>
+    <button className = 'specials'>
       <span>{props.specials}</span>
     </button>
   );
