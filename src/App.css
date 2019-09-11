@@ -1,22 +1,89 @@
 .container {
-    background-color: #c00025;
-    width: 100%;
-    max-width: 550px;
-    border-radius: 15px;
-    border: 2px solid grey;
-    padding-bottom: 25px;
+  background-color: #a81e37;
+  width: 100%;
+  max-width: 550px;
+  border-radius: 15px;
+  border: 2px solid grey;
+  padding: 25px;
 }
 .display {
-    margin-top: 25px;
-    height: 100px;
-    width: 450px;
-    border-radius: 50px;
-    color: white;
-    background-color: #322c2d;
-    box-shadow: 1px 1px #322c2d;
+  margin: 25px auto;
+  height: 100px;
+  width: 450px;
+  border-radius: 50px;
+  color: white;
+  background-color: #322c2d;
+  box-shadow: 1px 1px #322c2d;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0 8%;
+  font-size: 5rem;
+}
+.App {
+  margin: 15px auto;
+  width: 500px;
+  display: flex;
+}
+
+.left div {
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-content: center;
+}
+.right {
+    margin: 10 auto;
     display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-    padding-right: 8%;
-    font-size: 5.0rem;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: center;
+    //max-width: 25%;
   }
+
+button.specials {
+  margin: 10px;
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+  color: white;
+  background-color: #225c9e;
+  box-shadow: 3px 3px #322c2d;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 2.5rem;
+}
+
+button.numbers {
+  margin: 10px;
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+  color: white;
+  background-color: #184378;
+  box-shadow: 3px 3px #322c2d;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 2.5rem;
+}
+
+/* .zero(
+    width: 200px;
+  ) */
+
+button.operators {
+  margin: 15px auto;
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+  color: white;
+  background-color: #247292;
+  box-shadow: 3px 3px #322c2d;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 2.5rem;
+}
